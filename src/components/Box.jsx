@@ -5,7 +5,7 @@ const BoxComponent = () => {
         <div style={{ position: 'relative', textAlign: 'center', marginLeft: '250px' }}>
             <div
                 style={{
-                    width: '350px',
+                    width: '320px',
                     height: '180px',
                     position: 'absolute',
                     top: '80px', // Adjust this value to control how much the image overflows from the top
@@ -26,7 +26,7 @@ const BoxComponent = () => {
                     zIndex: 1, // Ensure the image is above the background
                 }}
             />
-            <div style={{ position: 'relative', zIndex: 2 }}>Your Text Component</div>
+            <div style={{ position: 'relative', zIndex: 2, color: '#ffff' }}>Your Text Component</div>
         </div>
     );
 };

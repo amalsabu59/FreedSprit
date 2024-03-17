@@ -25,6 +25,7 @@
   line-height: 1; /* Adjust this value to reduce the gap between lines */
   letter-spacing: 0em;
   text-align: left;
+  color:#ffff;
 }
 
 .img{
@@ -36,19 +37,15 @@
 .inverted {
   transform: scaleX(-1);
 }
+
 .boxContainer {
   position: absolute;
   top: 60%; /* Adjust the value to position it below the button */
-  left: 00%;
+
   z-index: 2; /* Position it above the Home component */
-  
-}
-.boxContainer {
-  position: absolute;
-  top: 60%; /* Adjust the value to position it below the button */
-   /* Adjust the value to horizontally center the box */
-  transform: translate(-50%, ); /* Center the box horizontally and vertically */
-  z-index: 2; /* Position it above the Home component */
+  max-height: 80%; /* Set maximum height to prevent overflow */
+  max-width: 80%; /* Set maximum width to prevent overflow */
+
 }
 
 .boxRow {
@@ -57,6 +54,7 @@
   align-items: center;
   justify-content: center;
 }
+
 
 @keyframes move {
   from {
@@ -75,6 +73,7 @@
   /* line-height: 44px; */
   letter-spacing: 0em;
   text-align: left;
+  color:#ffff
 }
 
 .button {
