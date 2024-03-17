@@ -5,8 +5,8 @@ const BoxComponent = () => {
         <div style={{ position: 'relative', textAlign: 'center', marginLeft: '250px' }}>
             <div
                 style={{
-                    width: '320px',
-                    height: '180px',
+                    width: '280px',
+                    height: '150px',
                     position: 'absolute',
                     top: '80px', // Adjust this value to control how much the image overflows from the top
                     left: '50%',
